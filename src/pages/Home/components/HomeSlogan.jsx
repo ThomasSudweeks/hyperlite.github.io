@@ -37,9 +37,9 @@ function HomeSlogan({ children, className = '' }) {
 
   const shadow = `
     0 0 40px rgba(0,0,0),
-    0.5vh 1vh 2px rgba(60,60,75,${0.5 * shadowOpacity}),
-    1vh 2vh 4px rgba(36,36,84,${0.7 * shadowOpacity}),
-    2vh 4vh 6px rgba(15,15,39,${shadowOpacity})
+    0.5vh 1vh 2px rgba(80,80,100,${0.5 * shadowOpacity}),
+    1vh 2vh 4px rgba(48,48,112,${0.7 * shadowOpacity}),
+    1.75vh 3.5vh 6px rgba(20,20,52,${shadowOpacity})
   `;
 
   const combinedClassName = `shadow-box ${className}`.trim();
