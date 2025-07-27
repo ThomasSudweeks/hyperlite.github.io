@@ -21,6 +21,20 @@
   box-shadow:  0 5px #0E0E0E, 0px 10px 100px #FFFFFF08;
 }
 
+.home-masked-image::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("/concrete2.jpg");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
 .home-masked-image {
   width: 60vw;
   height: 300px;
@@ -58,18 +72,29 @@
   height: 50px;
   width: 200px;
   margin-top: 100vh;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   position: relative;
 
   background: none;
-  border: 2px solid #AACCFF;
-  color: #AACCFF;
+  border: 2px solid #acf;
+  color: #acf;
   /* padding: 0.5em 1em; */
   font-size: 1.2em;
   border-radius: 0.3em;
   transition: 0.3s;
+
+  user-select: none;
 }
 .home-hyperlyte-button:hover {
-  background: #AACCFF;
-  color: black;
+  background-color: #aaccff22;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.home-copyright {
+  position: relative;
+  font-size: 15px;
+  color: #fff6;
+
+  user-select: none;
 }

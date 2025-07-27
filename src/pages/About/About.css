@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
 
-  background-color: #F0F8FF;
+  background-color: #fff;
 }
 
 .about-container {
@@ -17,7 +17,7 @@
 
 .about-title {
   font-size: 10vh;
-  color: #222222;
+  color: #213547;
 
   position: relative;
   align-self: center;

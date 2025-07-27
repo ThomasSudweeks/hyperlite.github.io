@@ -23,7 +23,7 @@ function ShadowBox({ children, className = '' }) {
       className={combinedClassName}
       style={{
         boxShadow: `0 5px rgb(${15 - scrollDepth/100}, ${15 - scrollDepth/100}, ${15 - scrollDepth/100}),
-          0px 15px ${scrollDepth * scrollDepth / 1000}px rgba(255, 255, 255, ${scrollDepth / 4000})`,
+          0px 15px ${50 + scrollDepth * scrollDepth / 1000}px rgba(255, 255, 255, ${scrollDepth / 4000})`,
       }}
     >
       {children}

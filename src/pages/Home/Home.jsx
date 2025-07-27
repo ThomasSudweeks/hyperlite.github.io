@@ -22,6 +22,9 @@ function Home() {
       onClick={handleButtonClick}>
         HyperLyte.tech
       </button>
+      <p className='home-copyright'>
+        2025 © HyperLyte LLC. All rights reserved.
+      </p>
     </div>
   );
 }
