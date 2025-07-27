@@ -1,7 +1,6 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import About from './pages/About/About'
 import Home from './pages/Home/Home'
-import Vite from './pages/Vite/Vite'
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/vite" element={<Vite />} />
+        <Route path="*" element={<Navigate to='/' replace />} />
       </Routes>
     </BrowserRouter>
   )

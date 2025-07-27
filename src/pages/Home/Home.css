@@ -1,0 +1,75 @@
+.home-bg {
+  position: fixed;
+
+  width: 100vw;
+  height: 200vh;
+  background-color: #111114;
+}
+
+.home-logo-container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  position: relative;
+  /* top: 0; */
+
+  height: 90vh;
+  width: 100vw;
+  min-height: 250px;
+
+  background-color: #111111;
+  box-shadow:  0 5px #0E0E0E, 0px 10px 100px #FFFFFF08;
+}
+
+.home-masked-image {
+  width: 60vw;
+  height: 300px;
+  max-width: 600px;
+  max-height: 600px;
+
+  align-self: center;
+
+  margin: 0 auto;
+
+  background-image: url("/concrete2.jpg");
+  background-size: 150%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  -webkit-mask-image: url("/hyperlyte2.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center;
+
+  mask-image: url("/hyperlyte2.svg");
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+}
+
+.home-slogan {
+  font-size: calc(max(min(5vw, 50px), 30px));
+  position: relative;
+  margin: 10vw;
+  margin-top: 20vh;
+}
+
+.home-hyperlyte-button {
+  height: 50px;
+  width: 200px;
+  margin-top: 100vh;
+  margin-bottom: 50px;
+  position: relative;
+
+  background: none;
+  border: 2px solid #AACCFF;
+  color: #AACCFF;
+  /* padding: 0.5em 1em; */
+  font-size: 1.2em;
+  border-radius: 0.3em;
+  transition: 0.3s;
+}
+.home-hyperlyte-button:hover {
+  background: #AACCFF;
+  color: black;
+}

@@ -1,0 +1,24 @@
+.about-bg {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+
+  background-color: #F0F8FF;
+}
+
+.about-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.about-title {
+  font-size: 10vh;
+  color: #222222;
+
+  position: relative;
+  align-self: center;
+}
