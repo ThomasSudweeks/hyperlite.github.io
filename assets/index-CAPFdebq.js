@@ -64,7 +64,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
         ${X})
       `;g(B)};return window.addEventListener("scroll",p),p(),()=>window.removeEventListener("scroll",p)},[]);const R=`
     0 0 40px rgba(0,0,0),
-    0.5vh 1vh 2px rgba(60,60,75,${.5*s}),
-    1vh 2vh 4px rgba(36,36,84,${.7*s}),
-    2vh 4vh 6px rgba(15,15,39,${s})
+    0.5vh 1vh 2px rgba(80,80,100,${.5*s}),
+    1vh 2vh 4px rgba(48,48,112,${.7*s}),
+    1.75vh 3.5vh 6px rgba(20,20,52,${s})
   `,U=`shadow-box ${o}`.trim();return Tt.jsx("h1",{id:"home-slogan",className:U,style:{textShadow:R,color:h},children:f})}function ry(){const f=()=>{window.open("http://hyperlyte.tech","_self")};return Tt.jsxs("div",{children:[Tt.jsx("div",{className:"home-bg"}),Tt.jsx(fy,{className:"home-logo-container",children:Tt.jsx("div",{className:"home-masked-image"})}),Tt.jsx(cy,{className:"home-slogan",children:"cool slogan 'bout innovation. and stuff."}),Tt.jsx("button",{className:"home-hyperlyte-button",onClick:f,children:"HyperLyte.tech"}),Tt.jsx("p",{className:"home-copyright",children:"2025 © HyperLyte LLC. All rights reserved."})]})}function oy(){return _.useEffect(()=>{window.history.scrollRestoration="manual",window.scrollTo(0,0)},[]),Tt.jsx(Wv,{children:Tt.jsxs(Mv,{children:[Tt.jsx(kn,{path:"/",element:Tt.jsx(ry,{})}),Tt.jsx(kn,{path:"/about",element:Tt.jsx(iy,{})}),Tt.jsx(kn,{path:"*",element:Tt.jsx(zv,{to:"/",replace:!0})})]})})}q0.createRoot(document.getElementById("root")).render(Tt.jsx(_.StrictMode,{children:Tt.jsx(oy,{})}));
